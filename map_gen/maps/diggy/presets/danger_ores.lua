@@ -2,6 +2,9 @@
 local ScenarioInfo = require 'features.gui.info'
 local abs = math.abs
 
+local container_dump = require 'map_gen.maps.danger_ores.modules.container_dump'
+container_dump({entity_name = 'scrap'}) -- What should be dumped
+
 local config = {
     scenario_name = 'diggy-danger-ores',
     -- a list of features to register and enable
